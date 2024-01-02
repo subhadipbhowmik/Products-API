@@ -5,7 +5,7 @@ const app = express();
 const products_router = require("./routes/products");
 const connectDB = require("./db/connect");
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 app.get("/", (req, res) => {
   res.send("Hello World");
